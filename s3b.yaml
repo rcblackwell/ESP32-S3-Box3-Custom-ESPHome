@@ -463,7 +463,7 @@ globals:
 number:
   - id: s_saver_delay
     platform: template
-    name: "Scr/save delay"
+    name: "Scr-save delay"
     icon: 'mdi:sleep'
     entity_category: config
     unit_of_measurement: 'secs'
@@ -480,7 +480,7 @@ number:
 
   - id: s_saver_blank_delay
     platform: template
-    name: "Scr/off delay"
+    name: "Scr-off delay"
     icon: 'mdi:monitor-off'
     entity_category: config
     unit_of_measurement: 'secs'
@@ -497,7 +497,7 @@ number:
 
   - id: s_saver_brightness
     platform: template
-    name: "Scr/save Brightness"
+    name: "Scr-save Brightness"
     icon: 'mdi:sleep'
     entity_category: config
     unit_of_measurement: '%'
@@ -615,7 +615,7 @@ switch:
 
   - platform: template
     id: s_saver
-    name: Scr/save enable
+    name: Scr-save enable
     icon: mdi:sleep
     optimistic: true
     restore_mode: RESTORE_DEFAULT_OFF
@@ -623,7 +623,7 @@ switch:
 
   - platform: template
     id: s_saver_mode
-    name: Scr/off enable
+    name: Scr-off enable
     icon: 'mdi:monitor-off'
     optimistic: true
     restore_mode: RESTORE_DEFAULT_OFF
